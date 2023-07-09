@@ -1,5 +1,6 @@
 install:
-	@go mod install
+	go get -u github.com/gin-gonic/git
+	go get -u github.com/stretchr/testify
 
 run:
 	@go run main.go
